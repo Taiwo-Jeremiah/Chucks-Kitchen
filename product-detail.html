@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details - Chucks Kitchen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <h1 class="logo">Chuks Kitchen</h1>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="explore.html">Explore</a></li>
+          <li><a href="orders.html">My Orders</a></li>
+          <li><a href="#account">Account</a></li>
+        </ul>
+      </nav>
+      <a href="login-in.html" class="login-btn">Login</a>
+      <button class="hamburger-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
+
+    <div class="container product-detail-container">
+      <section class="product-detail-section">
+        <div class="product-detail-wrapper">
+          <div class="product-grid">
+            <div class="product-image">
+              <img
+                src="assets/images/b41e41928e24c85d53319e659f48f93770475506.png"
+                alt="Jollof rice with Fried Chicken"
+              />
+            </div>
+
+            <div class="product-info">
+
+              <button class="remove-btn"><i class="fa-solid fa-x"></i></button>
+              <h2>Jollof rice with Fried Chicken</h2>
+              <p class="product-price">₦8,800</p>
+
+              <p class="product-description">
+                Our signature jollof rice cooked to perfection with aromatic spices, served with crispy fried chicken. A popular choice for lunch or dinner. Perfect for a quick lunch or a hearty dinner.
+              </p>
+
+              <div class="product-badges">
+                <span class="badge"><i class="fa-regular fa-stopwatch"></i> Mildly spicy</span>
+                <span class="badge"><i class="fa-regular fa-stopwatch"></i> Vegetarian option available</span>
+                <a href="#" class="badge badge-link"><i class="fa-regular fa-stopwatch"></i> View Allergens</a>
+              </div>
+
+              <div class="product-section">
+                <h3>Choose Your Protein</h3>
+                <div class="option-group">
+                  <div class="radio-option">
+                    <input type="radio" id="fried-chicken" name="protein" value="fried-chicken" checked />
+                    <label for="fried-chicken">Fried Chicken</label>
+                    <span class="price-tag">(Default)</span>
+                  </div>
+                  <div class="radio-option">
+                    <input type="radio" id="grilled-fish" name="protein" value="grilled-fish" />
+                    <label for="grilled-fish">Grilled Fish</label>
+                    <span class="price-tag">+₦500</span>
+                  </div>
+                  <div class="radio-option">
+                    <input type="radio" id="beef" name="protein" value="beef" />
+                    <label for="beef">Beef</label>
+                    <span class="price-tag">+₦700</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-section">
+                <h3>Extra Sides (Optional)</h3>
+                <div class="checkbox-group">
+                  <div class="checkbox-option">
+                    <input type="checkbox" id="fried-plantain" name="sides" value="fried-plantain" />
+                    <label for="fried-plantain">Fried Plantain</label>
+                    <span class="price-tag">+₦750</span>
+                  </div>
+                  <div class="checkbox-option">
+                    <input type="checkbox" id="coleslaw" name="sides" value="coleslaw" />
+                    <label for="coleslaw">Coleslaw</label>
+                    <span class="price-tag">+₦600</span>
+                  </div>
+                  <div class="checkbox-option">
+                    <input type="checkbox" id="extra-pepper" name="sides" value="extra-pepper" />
+                    <label for="extra-pepper">Extra Pepper Sauce</label>
+                    <span class="price-tag">+₦300</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-section">
+                <h3>Special Instructions</h3>
+                <textarea
+                  placeholder="E.g no onion, food is too spicy, food is too hot hhhhhhhhhh
+food is tasty"
+                  class="instructions-input"
+                ></textarea>
+              </div>
+
+              <!-- <div class="product-actions">
+                <button class="add-to-cart-btn">
+                  <i class="fas fa-plus"></i>
+                </button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#index.html">Chucks Kitchen</a>
+                <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
+            </div>
+        <div class="links">
+            <p>Quick Links</p>
+            <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#orders">My Orders</a></li>
+            <li><a href="#account">Account</a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+            <p>Contact Us</p>
+            <ul>
+                <li> +234 123 4567</li>
+                <li>hello@chukskitchen.com </li>
+                    <li>123 Taste Blvd, Lagos, Nigeria </li>
+                </div>
+        <div class="social-media">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="footer-end">
+        <p>© 2020 Lift Media. All rights reserved.</p>
+        <a href="#top" class="scroll-to-top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
