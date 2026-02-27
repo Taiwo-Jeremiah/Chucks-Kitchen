@@ -72,6 +72,8 @@ This is a purely client‑side project. To view it :
 
 Go to:https://taiwo-jeremiah.github.io/Chucks-Kitchen/
 
+or
+
 1. Clone or download the repository to your machine.
 2. Open `index.html` in your browser.
    - Alternatively, serve the folder with a simple web server (e.g., `npx http-server`, `python -m http.server 8000`, etc.) to avoid any CORS/file‑URL quirks.
