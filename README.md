@@ -37,7 +37,7 @@ Chucks-Kitchen/
 ├─ delivery-details.html
 ├─ explore.html
 ├─ index.html
-├─ login-in.html
+├─ login.html
 ├─ order-completed.html
 ├─ orders.html
 ├─ payment.html

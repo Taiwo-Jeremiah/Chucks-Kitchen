@@ -2322,7 +2322,7 @@ footer .links li a {
   }
 
   /*================== SIGNIN STYLES ==================*/
-  .login-in-container,
+  .login-container,
   .sign-in-container{
       background-color: var(--pure-white);
   } 
