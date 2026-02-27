@@ -70,7 +70,7 @@ Chucks-Kitchen/
 
 This is a purely client‑side project. To view it :
 
-Go to:
+Go to:https://taiwo-jeremiah.github.io/Chucks-Kitchen/
 
 1. Clone or download the repository to your machine.
 2. Open `index.html` in your browser.
