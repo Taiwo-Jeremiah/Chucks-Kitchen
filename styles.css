@@ -332,6 +332,11 @@ section {
   transition: transform 0.3s ease;
 }
 
+.category-card a,
+.chef-special-card a {
+  width: 100%;
+}
+
 .chef-special-card {
   text-align: start;
   align-items: start;
