@@ -68,7 +68,9 @@ Chucks-Kitchen/
 
 ## 🚀 Running the Project
 
-This is a purely client‑side project. To view it:
+This is a purely client‑side project. To view it :
+
+Go to:
 
 1. Clone or download the repository to your machine.
 2. Open `index.html` in your browser.
